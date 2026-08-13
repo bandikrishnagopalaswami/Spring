@@ -1,26 +1,19 @@
-package com.eazybytes.ex3.beans;
+package com.eazybytes.practice.beans;
 
 import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
-
 @Component
-public class Vehicle {
+public class Engine {
+    private String name;
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-    private String name;
     @PostConstruct
     public void initialise(){
-        this.name="benz";
-    }
-    @PreDestroy
-    public void destroy(){
-        System.out.println("Closing connections");
+        this.name="v8";
     }
 }
