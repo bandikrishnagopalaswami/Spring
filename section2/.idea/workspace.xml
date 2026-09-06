@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fb57c0-08f6-4d5c-8a7e-b70c443c31f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/ex3/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/ex3/DemoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/ex3/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/ex3/beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/task/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/task/beans/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/task/beans/Student1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/eazybytes/task/config/ProjectConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Application.Demo.executor": "Run",
     "Application.DemoClass.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Task.executor": "Run",
     "Maven.demo [validate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +53,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Springboot/section2/demo/src/main/java/com/eazybytes/ex4",
+    "last_opened_file_path": "D:/Springboot/section2",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",

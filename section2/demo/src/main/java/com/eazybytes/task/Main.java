@@ -1,13 +1,19 @@
 package com.eazybytes.task;
 
+import com.eazybytes.task.beans.AlertSystem;
+import com.eazybytes.task.beans.NotificationService;
+import com.eazybytes.task.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.eazybytes.task.config.*;
-import com.eazybytes.task.beans.*;
+
+import javax.management.Notification;
+
 public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(ProjectConfig.class);
-        System.out.println("using bean method"+context.getBean(Student1.class).getName()+" "+context.getBean(Student1.class).getRoll());
-        System.out.println("using component method"+context.getBean(Student.class).getName()+" "+context.getBean(Student.class).getRollno());
-
+        AlertSystem as=context.getBean(AlertSystem.class);
+        as.executeAlert("Server CPU at 95%!");
+        as.getNotificationService().send("gopal","Hello how r u");
+        //System.out.println();
+        context.close();
     }
 }

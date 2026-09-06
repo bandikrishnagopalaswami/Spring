@@ -1,18 +1,17 @@
 package com.eazybytes.task.config;
 
-import com.eazybytes.task.beans.Student1;
+import com.eazybytes.task.beans.AuditLogger;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
-@ComponentScan(basePackages = "com.eazybytes.task.beans")
+@ComponentScan("com.eazybytes.task.beans")
 public class ProjectConfig {
     @Bean
-    Student1 createStudent(){
-        Student1 s=new Student1();
-        s.setName("Swami");
-        s.setRoll(101);
-        return s;
+    AuditLogger a(){
+        System.out.println("audit logger");
+        return new AuditLogger();
     }
 }
